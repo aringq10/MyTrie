@@ -9,8 +9,6 @@ This project is a **Prefix Tree (Trie)** implementation for C++17. Implements th
 * **`test.cpp`**: A diagnostic suite that tests edge cases and logs results to `log.txt`.
 * **`Makefile`**: Project Makefile
 
----
-
 ## How to Build and Run
 
 1.  **Build All**:
@@ -29,7 +27,7 @@ This project is a **Prefix Tree (Trie)** implementation for C++17. Implements th
     ```bash
     make clean
     ```
-5.  **Rebuild (clean and build all):
+5.  **Rebuild (clean and build all)**:
     ```bash
     make rebuild
     ```
