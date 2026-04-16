@@ -292,7 +292,7 @@ namespace MyTrie {
     }
 
     bool Trie::operator!=(const Trie& other) const noexcept {
-        return !(*this == other);
+        return (*this == other);
     }
 
     bool Trie::operator<(const Trie& other) const noexcept {
